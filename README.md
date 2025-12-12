@@ -69,9 +69,3 @@ Translations were manually coded into four cultural adaptation strategies:
 # Install dependencies
 pip install -r requirements.txt
 ```
-
------
-
-### 💡 **Next Step for You:**
-
-Since you mentioned using the `all-MiniLM-L6-v2` model [cite: 96] and specific prompt templates[cite: 337], **would you like me to generate a `requirements.txt` file** listing the necessary Python libraries (like `sentence-transformers`, `pandas`, `scipy`) based on the methodology described in your paper?# cse5525-llm-cross-cultural-eval
