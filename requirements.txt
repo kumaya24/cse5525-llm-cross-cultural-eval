@@ -1,0 +1,10 @@
+pandas
+numpy
+statsmodels
+scipy
+sentence-transformers
+torch
+fuzzywuzzy
+python-Levenshtein
+requests
+scikit-learn

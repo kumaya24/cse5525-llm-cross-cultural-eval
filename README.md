@@ -61,6 +61,16 @@ Translations were manually coded into four cultural adaptation strategies:
   * **Low-Resource Stability:** While GPT excelled with context, **Gemini** performed best in the **Title-only** (low-context) condition[cite: 135].
   * **Adaptation Strategies:** The best-performing models favored **Preservation** and **Transformation** strategies over Omission[cite: 187].
 ---
+
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/cse5525-llm-cross-cultural-eval.git
+cd cse5525-llm-cross-cultural-eval
+
+# Install dependencies
+pip install -r requirements.txt
+```
 ###  Usage
 
 *TODO*
