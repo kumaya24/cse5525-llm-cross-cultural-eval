@@ -133,13 +133,13 @@ This pattern suggests GPT tends to preserve explicit CSIs and transform cultural
 
 ---
 
-## Reproducibility Notes
+## Prompt Templates (Appendix A)
 
 - Models are instructed not to reference official English titles.
 - Prompts are standardized in Chinese.
 - Official English titles are used **only for evaluation**.
 
----Prompt Templates (Appendix A)
+---
 
 We provide the three prompt templates (Chinese input + English gloss for readability).
 Note: The Chinese prompt is the actual model input; English is for readers only.
