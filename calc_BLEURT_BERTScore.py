@@ -8,9 +8,8 @@ import torch
 import numpy as np
 
 
-# =========================
-# INPUT FILES (9 DATASETS)
-# =========================
+
+# Input files (9 DATASETS)
 INPUT_CSVS = [
     r"Gemini_Culture-aware.csv", r"Gemini_Title and Synopsis.csv", r"Gemini_Title-only.csv",
     r"gpt_Culture-aware.csv", r"gpt_Title_and_Synopsis.csv", r"gpt_Title-only.csv",
@@ -22,7 +21,7 @@ OUTPUT_CSV = r"combined_BLEURT_BERTScore_per_case.csv"
 
 # Column indices
 KEY_COL_1 = 0    # case identifier (English title)
-KEY_COL_2 = 1    # case identifier (Chinese / year)
+KEY_COL_2 = 1    # case identifier (Chinese title)
 REF_COL_IDX = 0  # reference (golden rule)
 PRED_COL_IDX = 3 # prediction
 
@@ -85,7 +84,7 @@ def main():
             combined_scores[k][f"BLEURT_{tag}"] = b
             combined_scores[k][f"BERTScore_{tag}"] = f1
 
-    # ---- Build output DataFrame ----
+    # ---- output ----
     output_df = pd.DataFrame.from_dict(combined_scores, orient="index")
     output_df.reset_index(drop=True, inplace=True)
 
@@ -95,3 +94,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
