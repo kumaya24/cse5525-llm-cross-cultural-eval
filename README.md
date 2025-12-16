@@ -114,7 +114,9 @@ We report the distribution across strategies to make cultural adaptation behavio
   - **significant interaction**: performance depends strongly on which prompt condition is used.
 
 **Best overall configuration:**  
-- **GPT + Title + Synopsis** achieves the strongest overall performance across metrics, including:  
+- **GPT + Title + Synopsis** achieves the strongest overall performance across metrics, including:
+  - BLEURT mean **-0.05**
+  - BERTScore mean **0.93**
   - CSI-Match mean **0.80**  
   - CS mean **0.75**
 
