@@ -9,7 +9,7 @@ import numpy as np
 
 
 
-# Input files (9 DATASETS)
+# Input files (9 datasets)
 INPUT_CSVS = [
     r"Gemini_Culture-aware.csv", r"Gemini_Title and Synopsis.csv", r"Gemini_Title-only.csv",
     r"gpt_Culture-aware.csv", r"gpt_Title_and_Synopsis.csv", r"gpt_Title-only.csv",
@@ -94,4 +94,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
