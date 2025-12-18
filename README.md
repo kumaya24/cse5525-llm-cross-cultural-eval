@@ -29,7 +29,37 @@ Recent work increasingly treats **cultural adaptation** as a distinct challenge 
 However, **film title translation** remains underexplored in LLM research, despite its uniquely high cultural density and commercial constraints. This repository supports systematic evaluation in this specific domain.
 
 ---
-
+## Installation
+Clone and install requirements:
+   ```bash
+   git clone https://github.com/kumaya24/cse5525-llm-cross-cultural-eval
+   pip install -r requirements.txt
+```
+---
+## Usage
+> All output are under dataset/ directory
+1. Construct the dataset of reference
+   ```bash
+   python init_dataset_construction.py
+   ```
+2. Construct the dataset of hypothesis
+   ```bash
+   python Prompting_GPT.py
+   python Prompting_Gemini.py
+   python Prompting_Llama.py
+   ```
+3. Calculate scores by all metrics
+   ```bash
+   python calc_BLEURT_BERTSore.py
+   python calc_cosine_similarity.py
+   python calc_csi_match_psr.py
+   ```
+4. Evalutae scores of all metrics
+   ```bash
+   python calc_p_value.py
+   python eval_cs.py
+   python eval_csi.py
+   ```
 ## Models Evaluated
 
 We evaluate three models under controlled prompting conditions:
