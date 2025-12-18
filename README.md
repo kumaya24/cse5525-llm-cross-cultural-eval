@@ -59,6 +59,7 @@ Clone and install requirements:
    python calc_p_value.py
    python eval_cs.py
    python eval_csi.py
+   python eval_BLEURT_BERTScore.py
    ```
 ## Models Evaluated
 
