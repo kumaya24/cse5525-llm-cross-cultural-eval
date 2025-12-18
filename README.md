@@ -37,7 +37,7 @@ Clone and install requirements:
 ```
 ---
 ## Usage
-> All output are under dataset/ directory
+> All input and output files are under dataset/ directory
 1. Construct the dataset of reference
    ```bash
    python init_dataset_construction.py
